@@ -5,7 +5,8 @@ package com.mphasis.Demo1;
  *
  */
 public class App 
-{
+{;
+
 	public void add(int a,int b)
 	{
 		int s;
@@ -23,6 +24,9 @@ public class App
 	}
     public static void main( String[] args )
     {
+    	App a=new App();
+    	a.add(3, 4);
+    	a.addData("thanu");
         System.out.println( "Hello World!" );
     }
 }
